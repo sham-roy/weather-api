@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,21 @@
     <script src="https://kit.fontawesome.com/95d1f99e45.js" crossorigin="anonymous"></script>
     <title>Weather today</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="https://cdn.tailwindcss.com"></script></head>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
 <body>
-        <div class="card1">
-            <div class="search">
+        <div class="card1 outline outline-1 outline-amber-300 ">
+            <p class="a1 text-center text-amber-300"><i class="fa-solid fa-cloud-moon-rain fa-3x"></i><span class="font-bold  text-white text-lg tracking-wider">Weather forecast </span ></p>
+            <div class="search mt-10">
                 <input id="searchbar" class="search-bar" type="text" placeholder="search your city ">
-                <button onclick="search()" type="button"> <i class="fa-solid fa-magnifying-glass"></i></button>        
+                <button onclick="search()" type="button"> <i class="fa-solid fa-magnifying-glass"></i></button>
 
             </div>
             <div id="result" class="text-center">
             </div>
         </div>
-        
+
 </body>
 <script src="./script.js"></script>
 </html>
