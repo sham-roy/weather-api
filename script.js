@@ -17,9 +17,12 @@ function displayData( weatherData ) {
     country= weatherData.sys.country
 
     result.innerHTML=`
-        <p class="mt-3">Weather in <span class="text-orange-500"> ${city1} , ${country} </span></p>
-        <p class="mt-3">${description} - <span class="text-orange-500">${temp}°C </span </p>
-        <p class="mt-3">Humidity - <span class="text-orange-500"> ${humidity}% </span> </p>
-        <p class="mt-3">Wind speed - <span class="text-orange-500"> ${wind} km/h</span> </p>
+    <p class="mt-3">Weather in <span class="text-orange-500"> ${city1} , ${country} </span></p>
+    <p class="mt-3">${description} - <span class="text-orange-500">${temp}°C </span </p>
+    <p class="mt-3">Humidity - <span class="text-orange-500"> ${humidity}% </span> </p>
+    <p class="mt-3 mb-3">Wind speed - <span class="text-orange-500"> ${wind} km/h</span> </p>
+    <hr class="mb-3">
+    <i class="fa-solid fa-cloud-sun-rain fa-2x"></i>
+
     `
 }
